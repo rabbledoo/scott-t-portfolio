@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <>
       <Navbar />
       <Header />
+      <AboutMe />
     </>
   );
 }
