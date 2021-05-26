@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif !important;
 }
 
 
@@ -49,7 +49,7 @@ border-top: 0.3rem solid var(--primary-orange)
   background: url(/Users/scott/kenzie/portfolio-landing-page/portfolio-landing-page/src/assets/johannes-plenio-YRBPT5x5aLw-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 150vh;
+  height: 100vh;
 }
 
 .main-info{
@@ -93,4 +93,43 @@ margin: 2rem;
 .btn-main-offer:hover{
   background-color: red;
   color: white;
+}
+
+
+
+/* ********************About Me********************* */
+.about-me-container{
+  /* background-color: blanchedalmond; */
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-img {
+  /* width: 16rem; */
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-orange);
+  
+}
+
+.about-header{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  padding: 2rem;
+  
+}
+
+@media(max-width: 468px) {
+  .profile-img{
+    width: 12rem;
+  }
+}
+
+.paragraph {
+  padding: 2rem;
 }
