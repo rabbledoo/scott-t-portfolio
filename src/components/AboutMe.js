@@ -15,7 +15,7 @@ const AboutMe = () => {
           <h1 className="about-header">About Me</h1>
           <p className="paragraph">
             My name is Scott Tarnowsky. I am a Metro-Detroit based Full-Stack
-            Software Developer, freelancing consultant, brother, son, dog dad,
+            Software Developer, Wireless Consultant, brother, son, dog dad,
             and kimchi fermenter. I build progressive web apps and single page
             applications. Currently, I build projects using HTML, CSS,
             JavaScript and the MERN stack (MongoDB, Express.js, React.js,
