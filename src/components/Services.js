@@ -9,10 +9,10 @@ const Services = () => {
       <div className="py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-3 col-sm-6">
               <div className="box">
-                  <FontAwesomeIcon icon={faHtml5} size="2x"/>
-                  <FontAwesomeIcon icon={faCss3} size="2x"/>
+                  <FontAwesomeIcon className="icon" icon={faHtml5} size="2x"/>
+                  <FontAwesomeIcon className="icon" icon={faCss3} size="2x"/>
                 <h3>Web Design</h3>
                 <p>
                   I create UX/UI for websites and web applications with modern
@@ -21,11 +21,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-3 col-sm-6">
               <div className="box">
-              <FontAwesomeIcon icon={faJsSquare} size="2x" />
-              <FontAwesomeIcon icon={faReact} size="2x"/>
-              <FontAwesomeIcon icon={faPython} size="2x"/>
+              <FontAwesomeIcon className="icon" icon={faJsSquare} size="2x" />
+              <FontAwesomeIcon className="icon" icon={faReact} size="2x"/>
+              <FontAwesomeIcon className="icon" icon={faPython} size="2x"/>
                 <h3>Web Development</h3>
                 <p>
                   I develop fast, lightweight progressive web apps and single
@@ -34,11 +34,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-3 col-sm-6">
               <div className="box">
-              <FontAwesomeIcon icon={faWifi} size="2x"/>
-              <FontAwesomeIcon icon={faKey} size="2x"/>
-                <h3>Managed Wi-Fi as a Service</h3>
+              <FontAwesomeIcon className="icon" icon={faWifi} size="2x"/>
+              <FontAwesomeIcon className="icon" icon={faKey} size="2x"/>
+                <h3>Wi-Fi as a Service</h3>
                 <p>
                   We empower business owners to take control of their Wi-Fi
                   needs and provide custom solutions for revenue
