@@ -2,7 +2,7 @@ import React from "react";
 // Font awesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,30 +27,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="/about">
+              <Link className="nav-link" to="/about">
                 about me
-              </a> */}
-              <Link to="/about"> about me </Link>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/services">
+              <Link className="nav-link" to="/services">
                 services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/portfolio">
+              <Link className="nav-link" to="/portfolio">
                 portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="#">
                 contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
