@@ -17,9 +17,7 @@ function App() {
         <Route component={AboutMe} path="/about" />
         <Route component={Services} path="/services" />
         <Route component={Portfolio} path="/portfolio" />
-        {/* <Home />
-      <AboutMe />
-      <Services /> */}
+        
       </Switch>
     </>
   );
