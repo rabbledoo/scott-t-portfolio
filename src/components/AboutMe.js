@@ -3,6 +3,7 @@ import author from "../assets/ScottEvenSmaller.jpeg";
 
 const AboutMe = () => {
   return (
+    <div className="header-wrapper">
     <div className="container py-5">
       <div className="about-me-container">
         <div className="row">
@@ -32,6 +33,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

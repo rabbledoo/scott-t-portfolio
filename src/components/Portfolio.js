@@ -5,6 +5,7 @@ import { Card, Button } from "react-bootstrap";
 function Portfolio() {
   return (
     <>
+    <div className="header-wrapper">
       <div className="portfolio">
         <div className="py-5">
           <div className="container">
@@ -26,6 +27,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

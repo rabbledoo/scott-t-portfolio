@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Welcome To Scott's Portal
         </a>
         <button
@@ -47,7 +47,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#">
+              <Link className="nav-link" to="/contact">
                 contact
               </Link>
             </li>
