@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/scott-t-portfolio">
+    <HashRouter basename="/scott-t-portfolio">
     <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
