@@ -272,3 +272,16 @@ text-transform: uppercase;
   }
 
 }
+
+
+/* ************************ Footer ************************/
+
+.footer{
+  background:black ;
+  color: white;
+  padding: 3rem;
+}
+
+.footer p{
+  margin: 0;
+}

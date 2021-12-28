@@ -8,6 +8,7 @@ import Services from "./components/Services.js";
 import { Switch, Route } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route component={Portfolio} path="/portfolio" />
         <Route component={Contact} path="/contact" />
       </Switch>
+      <Footer />
     </>
   );
 }
