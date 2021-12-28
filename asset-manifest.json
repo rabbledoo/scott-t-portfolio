@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/scott-t-portfolio/static/css/main.a9cae9f0.chunk.css",
-    "main.js": "/scott-t-portfolio/static/js/main.4c278c2b.chunk.js",
-    "main.js.map": "/scott-t-portfolio/static/js/main.4c278c2b.chunk.js.map",
-    "runtime-main.js": "/scott-t-portfolio/static/js/runtime-main.96d5c695.js",
-    "runtime-main.js.map": "/scott-t-portfolio/static/js/runtime-main.96d5c695.js.map",
+    "main.css": "/scott-t-portfolio/static/css/main.c1e5436e.chunk.css",
+    "main.js": "/scott-t-portfolio/static/js/main.c3381570.chunk.js",
+    "main.js.map": "/scott-t-portfolio/static/js/main.c3381570.chunk.js.map",
+    "runtime-main.js": "/scott-t-portfolio/static/js/runtime-main.df04c549.js",
+    "runtime-main.js.map": "/scott-t-portfolio/static/js/runtime-main.df04c549.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/scott-t-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a710590a.chunk.js": "/scott-t-portfolio/static/js/2.a710590a.chunk.js",
-    "static/js/2.a710590a.chunk.js.map": "/scott-t-portfolio/static/js/2.a710590a.chunk.js.map",
-    "static/js/3.95a2a766.chunk.js": "/scott-t-portfolio/static/js/3.95a2a766.chunk.js",
-    "static/js/3.95a2a766.chunk.js.map": "/scott-t-portfolio/static/js/3.95a2a766.chunk.js.map",
+    "static/js/2.037dfc5a.chunk.js": "/scott-t-portfolio/static/js/2.037dfc5a.chunk.js",
+    "static/js/2.037dfc5a.chunk.js.map": "/scott-t-portfolio/static/js/2.037dfc5a.chunk.js.map",
     "index.html": "/scott-t-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/scott-t-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a9cae9f0.chunk.css.map": "/scott-t-portfolio/static/css/main.a9cae9f0.chunk.css.map",
-    "static/js/2.a710590a.chunk.js.LICENSE.txt": "/scott-t-portfolio/static/js/2.a710590a.chunk.js.LICENSE.txt",
+    "static/css/main.c1e5436e.chunk.css.map": "/scott-t-portfolio/static/css/main.c1e5436e.chunk.css.map",
+    "static/js/2.037dfc5a.chunk.js.LICENSE.txt": "/scott-t-portfolio/static/js/2.037dfc5a.chunk.js.LICENSE.txt",
+    "static/media/EpicNFT.d36f4fd7.png": "/scott-t-portfolio/static/media/EpicNFT.d36f4fd7.png",
     "static/media/Maze.8cd01c50.png": "/scott-t-portfolio/static/media/Maze.8cd01c50.png",
+    "static/media/RosenbergScreenshot.81bfa925.png": "/scott-t-portfolio/static/media/RosenbergScreenshot.81bfa925.png",
     "static/media/ScottEvenSmaller.29e77f0a.jpeg": "/scott-t-portfolio/static/media/ScottEvenSmaller.29e77f0a.jpeg",
     "static/media/SocialInstance.8ab8b934.png": "/scott-t-portfolio/static/media/SocialInstance.8ab8b934.png",
-    "static/media/App.css": "/scott-t-portfolio/static/media/niceGif.21d0a45c.gif",
+    "static/media/SuperReddit.b3d01c8f.png": "/scott-t-portfolio/static/media/SuperReddit.b3d01c8f.png",
+    "static/media/App.css": "/scott-t-portfolio/static/media/johannes-plenio-YRBPT5x5aLw-unsplash.69473784.jpg",
     "static/media/wisemonkey.b190beda.jpeg": "/scott-t-portfolio/static/media/wisemonkey.b190beda.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.96d5c695.js",
+    "static/js/runtime-main.df04c549.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a710590a.chunk.js",
-    "static/css/main.a9cae9f0.chunk.css",
-    "static/js/main.4c278c2b.chunk.js"
+    "static/js/2.037dfc5a.chunk.js",
+    "static/css/main.c1e5436e.chunk.css",
+    "static/js/main.c3381570.chunk.js"
   ]
 }
