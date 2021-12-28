@@ -3,6 +3,7 @@ import Maze from "../../src/assets/Maze.png"
 import WiseMonkey from "../../src/assets/wisemonkey.jpeg"
 import SuperReddit from "../../src/assets/SuperReddit.png"
 import EpicNFT from "../../src/assets/EpicNFT.png"
+import RosenbergScreenshot from "../../src/assets/RosenbergScreenshot.png"
 
 function openKwitter() {
   window.open("https://kenzie-se-q2.github.io/kwitter-nddudash/");
@@ -18,6 +19,10 @@ function openSuperReddit(){
 
 function openEpicNFT(){
   window.open("https://epic-nfts-frontend-seven.vercel.app/")
+}
+
+function openShareButton(){
+  window.open("https://investrosenberg.com/")
 }
 
 export const Projects = [
@@ -49,5 +54,12 @@ export const Projects = [
     button: "Check it out!",
     click: openEpicNFT,
   },
+  {
+    image: RosenbergScreenshot,
+    title: "Share Button",
+    text: "Share button feature using 3rd party package AddToAny. My client asked me to update this feature for their landing page.",
+    button: "Check it out!",
+    click: openShareButton,
+  }
 
 ];

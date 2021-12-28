@@ -100,8 +100,11 @@ margin: 2rem;
 
 
 /* ********************About Me********************* */
-.about-me-container{
-  /* background-color: blanchedalmond; */
+.parent-container{
+  position: relative;
+  background: url(/Users/scott/kenzie/portfolio-landing-page/portfolio-landing-page/src/assets/johannes-plenio-YRBPT5x5aLw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .photo-wrap {
@@ -191,6 +194,9 @@ margin: 2rem;
   text-align: center;
   padding-bottom: 2rem;
   width: 100%;
+  background: url(/Users/scott/kenzie/portfolio-landing-page/portfolio-landing-page/src/assets/johannes-plenio-YRBPT5x5aLw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .row{
@@ -271,4 +277,17 @@ text-transform: uppercase;
     padding: 0 1rem;
   }
 
+}
+
+
+/* ************************ Footer ************************/
+
+.footer{
+  background:black ;
+  color: white;
+  padding: 3rem;
+}
+
+.footer p{
+  margin: 0;
 }
