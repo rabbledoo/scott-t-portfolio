@@ -51,6 +51,11 @@ const Navbar = () => {
                 contact
               </Link>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://www.canva.com/design/DAEmt8Bj4no/gScuvdT-CtwTGKf05Q0pxQ/view?utm_content=DAEmt8Bj4no&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+                resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>

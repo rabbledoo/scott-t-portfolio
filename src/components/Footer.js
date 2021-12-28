@@ -23,13 +23,13 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/rabbledoo">
-                            <FontAwesomeIcon icon={faGithub} size="2x"/>
+                            <FontAwesomeIcon icon={faGithub} size="4x"/>
                             </a>
                             <a href="https://www.linkedin.com/in/scott-tarnowsky-254b4656/">
-                            <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                            <FontAwesomeIcon icon={faLinkedin} size="4x"/>
                             </a>
                             <a href="https://twitter.com/RabbleDoo">
-                            <FontAwesomeIcon icon={faTwitter} size="2x"/>
+                            <FontAwesomeIcon icon={faTwitter} size="4x"/>
                             </a>
                         </div>
                     </div>

@@ -8,12 +8,12 @@ const Header = () => {
                 <div className="main-info">
                     <Typed 
                     className="typed-text"
-                    strings={["Whatever you do,", "or dream you can", "begin it.", "Boldness has genius and power and magic in it.","-Johann Wolfgang von Goethe"]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    strings={["Hi I'm Scott", "I'm a full-stack developer based out of Detroit", "Thanks for visiting my portal", "I'd love to connect"]}
+                    typeSpeed={30}
+                    backSpeed={30}
                     loop
                     />
-                    <a href="#" className="btn-main-offer">Contact Me</a>
+                    <a href="/contact" className="btn-main-offer">Contact Me</a>
                 </div>
             </div>
         </div>
