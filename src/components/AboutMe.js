@@ -13,7 +13,10 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xm-12">
+            <div className="about-header-wrapper">
             <h1 className="about-header">About Me</h1>
+            </div>
+            <div className="paragraph-wrap">
             <p className="paragraph">
               My name is Scott Tarnowsky. I am a Metro-Detroit based Full-Stack
               Software Developer, Wireless Consultant, brother, son, dog dad,
@@ -30,6 +33,7 @@ const AboutMe = () => {
               web applications and managed wireless business solutions. Also, if
               you have some general questions, don’t hesitate to contact me.
             </p>
+            </div>
           </div>
         </div>
       </div>

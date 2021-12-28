@@ -1,6 +1,8 @@
 import SocialInstance from "../../src/assets/SocialInstance.png";
 import Maze from "../../src/assets/Maze.png"
 import WiseMonkey from "../../src/assets/wisemonkey.jpeg"
+import SuperReddit from "../../src/assets/SuperReddit.png"
+import EpicNFT from "../../src/assets/EpicNFT.png"
 
 function openKwitter() {
   window.open("https://kenzie-se-q2.github.io/kwitter-nddudash/");
@@ -8,6 +10,14 @@ function openKwitter() {
 
 function openMaze() {
   window.open("https://kenzieacademy-students.github.io/se-q1-maze-rabbledoo/")
+}
+
+function openSuperReddit(){
+  window.open("https://superreddit.herokuapp.com/")
+}
+
+function openEpicNFT(){
+  window.open("https://epic-nfts-frontend-seven.vercel.app/")
 }
 
 export const Projects = [
@@ -21,16 +31,23 @@ export const Projects = [
   {
     image: Maze,
     title: "Vanilla JavaScript Maze",
-    text: "This is a maze made with Vanilla JavaScript using a Model View Controller (MVC) design pattern and DOM manipulation principles",
+    text: "Maze made with JavaScript using a Model View Controller (MVC) design pattern and DOM manipulation principles",
     button: "Check it out!",
     click: openMaze,
   },
   {
-    image: WiseMonkey,
-    title: "More coming soon!!",
-    text: "Stay tuned!!",
+    image: SuperReddit,
+    title: "SuperReddit",
+    text: "Forum/discussion application.  UI/UX, API and database built with Python, Django, PostgreSQL and deployed to a Heroku Server",
     button: "Check it out!",
-    click: openKwitter,
+    click: openSuperReddit,
+  },
+  {
+    image: EpicNFT,
+    title: "EpicNFT",
+    text: "NFT generator app.  UI/UX built with React.js, JavaScript, and Ethers.js (connect to ethereum blockchain).  Smart contract built using Solidity and Hardhat.js (deploy to ethereum blockchain)",
+    button: "Check it out!",
+    click: openEpicNFT,
   },
 
 ];
