@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Nanum Gothic', sans-serif !important;
+  background-color: black;
 }
 
 
@@ -118,11 +119,28 @@ margin: 2rem;
   
 }
 
+.about-header-wrapper{
+  display: flex;
+  background-color: rgb(42, 44, 51);
+  border-radius: 50%;
+  justify-content: center;
+}
+
 .about-header{
-  color: var(--primary-orange);
+  color: whitesmoke;
   text-transform: uppercase;
   padding: 2rem;
   
+}
+
+.paragraph{
+  
+  color: whitesmoke ;
+}
+
+.paragraph-wrap{
+  background-color: rgb(42, 44, 51);
+  border-radius: 10%;
 }
 
 @media(max-width: 468px) {
@@ -167,14 +185,11 @@ margin: 2rem;
   border-bottom: 0.3125rem solid rgb(0,0,0);
 }
 
-/* ********************Portfolio**********/
+/* ********************Portfolio******************************/
 
 .portfolio{
   text-align: center;
   padding-bottom: 2rem;
-  background: url(/Users/scott/kenzie/portfolio-landing-page/portfolio-landing-page/src/assets/niceGif.gif) no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
 }
 
@@ -183,4 +198,77 @@ margin: 2rem;
   align-items: center;
   justify-content: space-between;
   padding: 3rem;
+}
+
+
+
+/* ********************Contact****************************************/
+
+
+
+.contacts {
+  background: var(--primary-dark) !important;
+  padding: 3rem 0;
+}
+
+.contacts h1{
+color: black;
+
+padding: 1.3rem 0;
+text-transform: uppercase;
+}
+
+.contacts p{
+  color: black;
+  font-size: 1.2rem;
+}
+
+
+/* ************************ Inputs ********************************/
+
+.contacts input, .contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: white ;
+  resize: none;
+  border: 0;
+  border-bottom: .125rem solid black;
+  border-radius: 0;
+  top: 0;
+  margin-bottom: 2.5rem;
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+  .contacts textarea{
+    height: 10rem !important;
+
+  }
+
+.error-message{
+  color: red;
+  background: black;
+}
+
+.success-message{
+  color: green;
+  font-weight: bold;
+  background: blanchedalmond;
+}
+
+/* ************************ Media ************************/
+@media(max-width: 768px){
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 1rem;
+  }
+
 }
