@@ -213,9 +213,15 @@ margin: 2rem;
 
 
 .contacts {
-  background: var(--primary-dark) !important;
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 100%;
+  background: url(/Users/scott/kenzie/portfolio-landing-page/portfolio-landing-page/src/assets/johannes-plenio-YRBPT5x5aLw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 3rem 0;
 }
+
 
 .contacts h1{
 color: black;
